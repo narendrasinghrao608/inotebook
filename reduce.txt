@@ -1,0 +1,10 @@
+redux:
+1.when a javascript application grows big, it becomes difficult for the user to manage its state
+2.redux solves this problem by managing application's state with a single global object called store
+3.makes testing very easy
+4.consistency throughout the application
+//actions & reducers
+1.an action is plain object that describes the intention to cause changenges to  an 
+2.a reducer is a function that determines chage application's state.return the new state and tell the store how to do
+3.it uses the action it receives to determine this change
+action=>reducer=>store=>view
